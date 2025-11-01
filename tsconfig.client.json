@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "moduleResolution": "NodeNext",
+    "types": ["vite/client"],
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "noEmit": true
+  },
+  "include": ["src/frontend/**/*.ts", "src/frontend/**/*.tsx"],
+  "exclude": ["node_modules", "dist"]
+}
